@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Output Sequence",
+      "setup": "javac src/MethodOverriding.java",
+      "run": "java -cp src MethodOverriding",
+      "input": "",
+      "output": "Name of class is Engineer\nName of class is Employee",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
